@@ -2,10 +2,11 @@ import React from 'react'
 import Slider01 from '../Assets/IMGS/Slider01.jpg';
 import Slider02 from '../Assets/IMGS/Slider02.jpg';
 import Slider03 from '../Assets/IMGS/Slider03.jpg';
+import '../Assets/CSS/slider.css';
 
 const Slider = () => {
     return (
-        <div className= "container">
+        <div className= "slider">
             <div>
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
@@ -15,24 +16,21 @@ const Slider = () => {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={Slider01} className="d-block w-100" alt="..." />
+                            <img src={Slider01} className="d-block w-100 carousel" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={Slider02} className="d-block w-100" alt="..." />
+                            <img src={Slider02} className="d-block w-100 carousel"  alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={Slider03} className="d-block w-100" alt="..." />
+                            <img src={Slider03} className="d-block w-100 carousel" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                
                             </div>
                         </div>
                     </div>

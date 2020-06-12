@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DESCRIPTION
+
+In this project we follow technical specifications of the SMDIGITAL client in the assembly of a web page that will allow it to display information on business products as well as a form area for the collection of information. //
+En este proyecto seguimos especificaciones técnicas del cliente SMDIGITAL en el montaje de pagina web que le permitirá mostrar información de productos empresariales así como una zona de formulario para la captacion de informacion.
+
 
 ## Available Scripts
 
