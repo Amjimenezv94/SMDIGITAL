@@ -8,10 +8,8 @@ import Services from './Component/Services.jsx';
 import Blog from './Component/Blog.jsx';
 import Footer from './Component/Footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Contact from './Component/Contact';
+import Contactform from './Component/ContactForm.jsx';
 
 
 ReactDOM.render(
@@ -21,7 +19,7 @@ ReactDOM.render(
     <Nosotros/>
     <Services/>
     <Blog/>
-    <Contact/>
+    <Contactform/>
     <Footer/>
 
 

@@ -64,7 +64,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div id="contact">
+      <div id=>
         {this.state.alert && <div className={`alert alert-${this.state.alertData.type}`} role='alert'>
           <div className='container'>
             {this.state.alertData.message}

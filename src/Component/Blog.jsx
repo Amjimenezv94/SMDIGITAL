@@ -1,5 +1,4 @@
 import React from 'react'
-import compartir from '../Assets/IMGS/compartir.png';
 import atraerClientes from'../Assets/IMGS/atraerClientes.jpg';
 import diseño from '../Assets/IMGS/diseño.jpg';
 import ideas from '../Assets/IMGS/ideas.jfif'
